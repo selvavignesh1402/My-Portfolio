@@ -3,8 +3,9 @@ import './contact.css';
 import { SiMinutemailer } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
-import { FaUserCircle } from "react-icons/fa";
-import { MdMarkEmailUnread } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { FaUserCircle } from "react-icons/fa";
+// import { MdMarkEmailUnread } from "react-icons/md";
 
 const Contact = () => {
     return (
@@ -20,11 +21,10 @@ const Contact = () => {
           <p><strong>Phone  <FaPhoneAlt/> : </strong> +91 9994545284</p>
           <p><strong>Address  <FaMapLocationDot/> : </strong> 28 Ganapathy, Coimbatore, India</p>
         </div>
-        <div className="contact-form-container">
-          {/* <h2>Contact</h2> */}
+        {/* <div className="contact-form-container"> */}
+          {/* <h2>Contact</h2>
           <form className="contact-form">
             <div className="form-group">
-              {/* <label htmlFor="name">Your Name</label> */}
               <span className="input-icon">
                                 <FaUserCircle />
                             </span>
@@ -32,7 +32,6 @@ const Contact = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-              {/* <label htmlFor="email">Your Email</label> */}
               <span className="input-icon">
                                 <MdMarkEmailUnread />
                             </span>
@@ -41,7 +40,15 @@ const Contact = () => {
             <button type="submit" className="submit-button">Submit</button>
           </form>
           <p className="instruction">Further instructions will be sent to your email with a questionnaire to fill out.</p>
-        </div>
+        </div>  */}
+       {/* </div>  */}
+      <div className="social-links">
+                    <h2>Social Links</h2>
+                    <ul className="social-icons">
+                        <li><a href="https://github.com/selvavignesh1402?tab=repositories" target="_blank" rel="noopener noreferrer"><FaGithub size={30} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/selvavignesh-v-ab192a258/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} /></a></li>
+                    </ul>
+      </div>
       </div>
     </section>
   );

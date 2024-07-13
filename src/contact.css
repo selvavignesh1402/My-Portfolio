@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 50px;
     background-color: #ffff;
     text-align: left;
+    margin-left: 150px;
   }
 .contact-section h3 {
     font-size: 36px;
@@ -16,6 +17,8 @@
     display: flex;
     max-width: 1200px;
     width: 100%;
+    gap: 50px;
+    padding-left: 150px;
   }
   
   .contact-info, .contact-form-container {
@@ -55,6 +58,7 @@
   .heading {
   font-size: 30px;
   margin-bottom: 10px;
+  margin-right: 120px;
   
 }
   .form-group {
@@ -100,3 +104,42 @@
   .input-icon {
     font-size: 21px;
   }
+
+  .social-links {
+    flex: 1;
+    text-align: left;
+}
+
+.social-links h2 {
+    font-size:36px;
+    margin-bottom: 25px;
+    color: #000000; /* Example text color */
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 50px; /* Adjust spacing between icons */
+    justify-content: center;
+    padding-right: 500px;
+  }
+  
+  .social-icons li {
+    font-size: 2rem; /* Example font size */
+}
+
+.social-icons a {
+    color: #2f2d2d; /* Example text color */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Example hover color */
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
