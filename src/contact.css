@@ -7,6 +7,7 @@
     background-color: #ffff;
     text-align: left;
     margin-left: 150px;
+    padding-bottom: 44px;
   }
 .contact-section h3 {
     font-size: 36px;
@@ -108,6 +109,7 @@
   .social-links {
     flex: 1;
     text-align: left;
+    padding-right: 0px;
 }
 
 .social-links h2 {

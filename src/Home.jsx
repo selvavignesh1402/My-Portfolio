@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from './selvapic.jpg'; // Ensure you have the image in the src folder
+import ProfilePic from './selvapic2.png'; 
 import { Link } from 'react-scroll';
 import './Home.css';
 
@@ -14,7 +14,7 @@ const Home = () => {
           <p>Welcome to my portfolio Where creativity meets expertise</p>
           <div className="buttons">
             <Link className="btn primary" to="contact" smooth={true} duration={500}>Get In Touch</Link>
-            <a href="/SelvavigneshVResume(1).pdf" className="btn secondary" target="_blank" rel="noopener noreferrer">My Resume</a>
+            <a href="/Selvavignesh_V_Resume.pdf" className="btn secondary" target="_blank" rel="noopener noreferrer">My Resume</a>
           </div>
         </div>
           <div className="profile-pic">
